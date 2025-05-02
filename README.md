@@ -31,10 +31,10 @@ Antes de empezar, asegúrate de tener instalados los siguientes programas en tu 
    
 ## APIS
 Microservicio de Estudiante:
-http://localhost:3000
+http://localhost:3000/estudiante
 
 Microservicio de Evaluación:
-http://localhost:4000
+http://localhost:4000/evaluacion
 
 ## Ejecutar
 El proyecto debe ser ejecutado con el comando docker compose up -d –build 
