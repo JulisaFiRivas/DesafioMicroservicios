@@ -35,6 +35,8 @@ http://localhost:3000
 
 Microservicio de Evaluación:
 http://localhost:4000
+##Ejecutar
+El proyecto debe ser ejecutado con el comando docker compose up -d –build 
 
 ## ejemplo de peticion 
 estudainte
