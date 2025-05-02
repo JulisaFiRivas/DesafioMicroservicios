@@ -1,0 +1,29 @@
+version: '3'
+services:
+    db:
+        image: mysql
+        container_name: mysqldb
+        environment:
+            MYSQL_ROOT_PASSWORD: julita
+        ports:
+            - "33060:3306"
+        volumes:
+             - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+    api-estudiante:
+        build:
+            context: $PWD/estudiante
+            dockerfile: Dockerfile
+        ports:
+            - "3000:3000"
+        depends_on:
+             db:
+                condition: service_started
+    api-evaluacion:
+        build:
+            context: $PWD/evaluacion
+            dockerfile: Dockerfile
+        ports:
+            - "3001:3001"
+        depends_on:
+             db:
+                condition: service_started
