@@ -22,5 +22,5 @@ INSERT INTO estudiante (rut, nombre, edad, curso) VALUES
 ('98765432-1', 'Apolo Figueroa', 4, 'segundo');
 
 INSERT INTO evaluacion (rut_estudiante, semestre, asignatura, nota) VALUES
-('12345678-9', '2025-1', 'Matemáticas', 6.0),
-('98765432-1', '2025-1', 'Física', 6.1);
+('12345678-9', '2025-1', 'Matematicas', 6.0),
+('98765432-1', '2025-1', 'Fisica', 6.1);
