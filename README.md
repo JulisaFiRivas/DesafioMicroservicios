@@ -3,19 +3,16 @@ Desafío de implementar 3 microservicios con Docker compose
 
 ## Estructura del Proyecto
 desafriomicroservicios/
-│
-├── estudiante/
-│ ├── micro.py
-│ ├── Dockerfile
-│ └── requirements.txt
-│
-├── evaluacion/
-│ ├── micro.py
-│ ├── Dockerfile
-│ └── requirements.txt
-│
-├── init.sql
-└── docker-compose.yml
+estudiante/
+   micro.py
+   Dockerfile
+   requirements.txt
+evaluacion/
+   micro.py
+   Dockerfile
+   requirements.txt
+   init.sql
+docker-compose.yml
 
 ## Requisitos Previos
 
